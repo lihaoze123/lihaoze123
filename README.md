@@ -23,7 +23,7 @@ These is Li Haoze
 ![统计信息](https://github-readme-stats.vercel.app/api?username=lihaoze123)
 
 [qq-icon]: https://img.shields.io/badge/QQ-2595248810-eb1923?logo=tencent-qq&style=plastic
-[github]: https://www.github.com/lihaoze123&style=plastic
+[github]: https://www.github.com/lihaoze123
 [github-icon]: https://img.shields.io/badge/Github-lihaoze123-181717?logo=github&style=plastic
 [email-icon]: https://img.shields.io/badge/Email-2595248810@qq.com-red?logo=gmail&style=plastic
 [python-icon]: https://img.shields.io/badge/Python-skyblue?logo=Python&style=plastic
