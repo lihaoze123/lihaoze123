@@ -24,8 +24,10 @@ These is Li Haoze
 
 <!--START_SECTION:waka-->
 ```text
-Python     1 hr 38 mins    ████████████████████████░   96.14 % 
-Other      3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
+Python     2 hrs 15 mins   ████████████████████░░░░░   79.43 % 
+Other      18 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.01 % 
+Markdown   11 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.79 % 
+Text       4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.73 % 
 ```
 <!--END_SECTION:waka-->
 
