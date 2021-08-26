@@ -24,7 +24,7 @@ These is Li Haoze
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+C++   14 mins         █████████████████████████   100.00 % 
 ```
 <!--END_SECTION:waka-->
 
