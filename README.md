@@ -24,7 +24,7 @@ These is Li Haoze
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+VimL     11 mins         ████████████████████████░   95.51 % 
 ```
 <!--END_SECTION:waka-->
 
