@@ -24,7 +24,7 @@ These is Li Haoze
 
 <!--START_SECTION:waka-->
 ```text
-VimL     11 mins         ████████████████████████░   95.51 % 
+VimL     14 mins         ████████████████████████░   96.23 % 
 ```
 <!--END_SECTION:waka-->
 
