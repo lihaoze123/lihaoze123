@@ -24,7 +24,10 @@ These is Li Haoze
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+C++      30 hrs 19 mins  ██████████████████████░░░   88.11 % 
+Python   3 hrs 54 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.33 % 
+Bash     9 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 % 
+VimL     1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
 ```
 <!--END_SECTION:waka-->
 
