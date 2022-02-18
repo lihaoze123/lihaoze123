@@ -24,12 +24,12 @@ These is Li Haoze
 
 <!--START_SECTION:waka-->
 ```text
-Total: 35 hrs 4 mins
+Total: 31 hrs 8 mins
 
-C++      30 hrs 54 mins  ██████████████████████░░░   88.10 % 
-Python   3 hrs 54 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   11.12 % 
-Bash     8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
-VimL     6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.33 % 
+C++      26 hrs 58 mins  █████████████████████▓░░░   86.60 % 
+Python   3 hrs 54 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.52 % 
+Bash     8 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 % 
+VimL     6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 % 
 ```
 <!--END_SECTION:waka-->
 
