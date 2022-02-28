@@ -23,10 +23,11 @@ These is Li Haoze
 ![统计信息](https://github-readme-stats.vercel.app/api?username=lihaoze123)  
 
 <!--START_SECTION:waka-->
+
 ```text
-C++    7 hrs 20 mins   █████████████████████████   99.40 % 
-VimL   2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.60 % 
+C++   7 hrs 30 mins   █████████████████████████   100.00 %
 ```
+
 <!--END_SECTION:waka-->
 
 [qq-icon]: https://img.shields.io/badge/QQ-2595248810-eb1923?logo=tencent-qq&style=plastic
