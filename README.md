@@ -25,8 +25,8 @@ These is Li Haoze
 <!--START_SECTION:waka-->
 
 ```text
-C++       6 hrs 31 mins   ████████████████████████░   96.32 %
-Other     14 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 %
+C++       6 hrs 14 mins   ████████████████████████░   96.17 %
+Other     14 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.83 %
 ```
 
 <!--END_SECTION:waka-->
