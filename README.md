@@ -1,11 +1,6 @@
-<!--
- * @Date: 2020-10-05 23:51:42
- * @LastEditors: lihaoze123
- * @LastEditTime: 2020-10-06 00:23:23
--->
 ### Hi there 👋
 
-These is Li Haoze
+These is Li Haoze, a OIer (Olympiad-in-Informatics-er) in Henan Experimental High School
 
 - 📫 How to reach me:    
 
@@ -13,7 +8,8 @@ These is Li Haoze
     [![My GitHub][github-icon]][github]
     ![My email][email-icon]   
 
-- 🚀 I used daily: ![Python][python-icon]
+- 🚀 I used daily: ![C++][cpp-icon] 
+                  ![Python][python-icon]
                   ![git][git-icon]
                   ![Vim][Vim-icon]
                   ![VSC][VSC-icon]
@@ -31,12 +27,12 @@ Other     14 mins         █░░░░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
-[qq-icon]: https://img.shields.io/badge/QQ-2595248810-eb1923?logo=tencent-qq&style=plastic
+[qq-icon]: https://img.shields.io/badge/QQ-2595248810-eb1923?logo=tencent-qq&style=for-the-badge
 [github]: https://www.github.com/lihaoze123
-[github-icon]: https://img.shields.io/badge/Github-lihaoze123-181717?logo=github&style=plastic
-[email-icon]: https://img.shields.io/badge/Email-2595248810@qq.com-red?logo=gmail&style=plastic
-[python-icon]: https://img.shields.io/badge/Python-skyblue?logo=Python&style=plastic
-[c-icon]: https://img.shields.io/badge/C-a8b9cc?logo=c&logoColor=171717&style=plastic
-[git-icon]: https://img.shields.io/badge/Git-black?logo=Git&style=plastic
-[Vim-icon]: https://img.shields.io/badge/Vim-57a143?logo=Vim&style=plastic
-[VSC-icon]: https://img.shields.io/badge/VS%20Code-007acc?logo=visual-studio-code&style=plastic
+[github-icon]: https://img.shields.io/badge/Github-lihaoze123-181717?logo=github&style=for-the-badge
+[email-icon]: https://img.shields.io/badge/Email-2595248810@qq.com-red?logo=gmail&style=for-the-badge
+[python-icon]: https://img.shields.io/badge/Python-skyblue?logo=Python&style=for-the-badge
+[cpp-icon]: https://img.shields.io/badge/-C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge
+[git-icon]: https://img.shields.io/badge/Git-black?logo=Git&style=for-the-badge
+[Vim-icon]: https://img.shields.io/badge/Vim-57a143?logo=Vim&style=for-the-badge
+[VSC-icon]: https://img.shields.io/badge/VS%20Code-007acc?logo=visual-studio-code&style=for-the-badge
