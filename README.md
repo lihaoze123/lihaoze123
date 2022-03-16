@@ -21,10 +21,8 @@ These is Li Haoze, a OIer (Olympiad-in-Informatics-er) in Henan Experimental Hig
 <!--START_SECTION:waka-->
 
 ```text
-C++        10 hrs 48 mins  ████████████████████████▓   98.86 %
-VimL       4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.72 %
-Markdown   2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.40 %
-Other      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
+C++    10 hrs 29 mins  ████████████████████████▓   99.26 %
+VimL   4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.74 %
 ```
 
 <!--END_SECTION:waka-->
