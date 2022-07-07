@@ -21,7 +21,9 @@ These is Li Haoze, a OIer (Olympiad-in-Informatics-er) in Henan Experimental Hig
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+Bash        10 mins         ██████████████████░░░░░░░   71.49 %
+Markdown    4 mins          ███████░░░░░░░░░░░░░░░░░░   28.51 %
+sshconfig   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
 ```
 
 <!--END_SECTION:waka-->
