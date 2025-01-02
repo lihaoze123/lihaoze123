@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-These is Li Haoze, a ACMer in Huanghuai university
+This is Li Haoze, a ACMer.
 
 - 📫 How to reach me:    
 
