@@ -65,6 +65,7 @@ jobs:
 
           config_timezone: Asia/Shanghai
           config_display: regular
+          config_padding: 0, 24
           config_octicon: yes
           config_animations: no
           config_order: base.header, base.activity+community, base.repositories, languages, followup
@@ -76,6 +77,7 @@ jobs:
 
           # Compact line-change totals in the repository section.
           plugin_lines: yes
+          plugin_lines_delay: 30
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
