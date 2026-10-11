@@ -1,0 +1,95 @@
+name: Metrics
+
+on:
+  schedule:
+    # Daily at 08:00 in Asia/Shanghai.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/metrics.yml
+      - README.md
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      # Commit each theme sequentially to avoid competing pushes.
+      max-parallel: 1
+      matrix:
+        include:
+          - theme: light
+            filename: github-metrics.svg
+            foreground: "#57606a"
+            heading: "#0969da"
+            muted: "#6e7781"
+          - theme: dark
+            filename: github-metrics-dark.svg
+            foreground: "#adbac7"
+            heading: "#58a6ff"
+            muted: "#8b949e"
+    steps:
+      - name: Check Metrics token
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$METRICS_TOKEN" ]; then
+            echo "::error::Add a public-only personal access token as the METRICS_TOKEN repository secret."
+            exit 1
+          fi
+
+      - name: Generate ${{ matrix.theme }} metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
+          committer_branch: main
+          filename: ${{ matrix.filename }}
+          user: lihaoze123
+          template: classic
+          base: header, activity, community, repositories, metadata
+          repositories: 100
+          repositories_affiliations: owner
+          repositories_forks: no
+          output_condition: data-changed
+          plugins_errors_fatal: yes
+
+          config_timezone: Asia/Shanghai
+          config_display: regular
+          config_octicon: yes
+          config_animations: no
+          config_order: base.header, base.activity+community, base.repositories, languages, followup
+
+          # Public issue and PR follow-up, like xddxdd's profile.
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_sections: user, repositories
+
+          # Compact line-change totals in the repository section.
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+
+          # Keep real language usage, including Nix and Typst.
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 6
+          plugin_languages_threshold: 2%
+          plugin_languages_details: percentage
+          plugin_languages_other: yes
+          plugin_languages_indepth: no
+
+          extras_css: |
+            svg { color: ${{ matrix.foreground }}; }
+            h1, h2, h3 { color: ${{ matrix.heading }}; }
+            .field svg { fill: ${{ matrix.muted }}; }
